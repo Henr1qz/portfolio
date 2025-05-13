@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cal sans;
+    background-color: black;
+}
+.titulo{
+    padding: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formulario{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.email, .nome, .celular, .mensagem{
+    width: 376px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(27, 243, 63);
+    color: rgb(0, 0, 0);
+    box-shadow: green;
+    box-shadow: 5px 5px  5px rgb(7, 78, 19);
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+.mensagem{
+    height: 50px;
+    resize: none;
+
+}
+.botao{
+    color: white;
+}
+input::-webkit-input-placeholder{
+    color: rgb(0, 0, 0);
+}
+.botao{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    background-color: rgb(27, 243, 63);
+    border-radius: 5px;
+    color: black;
+    height: 40px;
+    width: 80px;
+    font-size: 16px;
+    
+}
+.mensagem::-webkit-scrollbar{
+    background: rgb(27, 243, 63);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    scrollbar-width: thin;
+}
+.mensagem::-webkit-scrollbar-thumb{
+    background-color: rgb(10, 177, 10);
+    border-radius: 17px;
+}
