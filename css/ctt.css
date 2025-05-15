@@ -42,7 +42,7 @@
 input::-webkit-input-placeholder{
     color: rgb(0, 0, 0);
 }
-.botao{
+.botao, .voltarhome{
     position: absolute;
     top: 90%;
     left: 50%;
@@ -53,7 +53,23 @@ input::-webkit-input-placeholder{
     height: 40px;
     width: 80px;
     font-size: 16px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.botao{
+    position: absolute;
+    left: 30%;
+    outline: none;
+    border: none;
+}
+.voltarhome{
+    position: absolute;
+    left: 70%;
+    text-align: center;
 }
 .mensagem::-webkit-scrollbar{
     background: rgb(27, 243, 63);
