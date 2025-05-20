@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/ctt.css">
     <style>
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 </style>
 </head>
 <body>
+
     <header class="cabecalho">
+        <div class="nav">
+            <a  href="./index.html">Home</a>
+            <a  href="./sobre.html">Sobre</a>
+            <a class="active" href="./contato.html">Contato</a>
+        </div>
         <h1 class="titulo">Envie uma mensagem para mim</h1>
     </header>
 
@@ -22,11 +30,10 @@
             <br><br>
             <input class="celular" type="tel" placeholder="Seu celular:" required>
             <br><br>
-            <textarea class="mensagem" id="myTextarea" rows="5" cols="30">Mensagem:</textarea>
+            <textarea class="mensagem" id="myTextarea" rows="5" cols="30" placeholder="Mensagem:"></textarea>
             <br><br>
             
             <button class="botao">Enviar</button>
-            <a class="voltarhome" href="./index.html">Voltar a home</a>
             
         </form>
 

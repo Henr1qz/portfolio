@@ -34,7 +34,9 @@
 .mensagem{
     height: 50px;
     resize: none;
-
+}
+.mensagem::-webkit-input-placeholder{
+    color: black;
 }
 .botao{
     color: white;
@@ -62,15 +64,11 @@ input::-webkit-input-placeholder{
 
 .botao{
     position: absolute;
-    left: 30%;
+    left: 50%;
     outline: none;
     border: none;
 }
-.voltarhome{
-    position: absolute;
-    left: 70%;
-    text-align: center;
-}
+
 .mensagem::-webkit-scrollbar{
     background: rgb(27, 243, 63);
     border-radius: 5px;

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: black;
+    justify-content: space-evenly;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    font-size: 20px;
+    position: sticky;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: oswald;
+}
+a.active {
+    color: rgb(27, 243, 63);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

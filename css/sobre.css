@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+nav{
+    
+}
+body{
+    background-color: black;
+    font-family: cal sans;
+}
+.sobre{
+    margin-top: 39px;
+    background-color: rgb(27, 243, 63);
+    color: rgb(0, 0, 0);
+    width: 600px;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.titulosobre{
+    padding: 20px;
+}
+.textosobre{
+    margin: 10px 20px;
+}
+.facad{
+    margin-top: 39px;
+    background-color: rgb(27, 243, 63);
+    color: rgb(0, 0, 0);
+    width: 600px;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.titulofacad{
+    padding: 20px;
+}
+.textofacad{
+    margin: 10px 20px;
+}
+
+
