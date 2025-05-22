@@ -4,7 +4,14 @@
     font-family: cal sans;
     background-color: black;
 }
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
 .titulo{
+    margin-top: 30px;
     padding: 30px;
     color: white;
     display: flex;
