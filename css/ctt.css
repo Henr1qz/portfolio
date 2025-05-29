@@ -4,6 +4,12 @@
     font-family: cal sans;
     background-color: black;
 }
+body {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
 .nav{
     position: fixed;
     top: 0;

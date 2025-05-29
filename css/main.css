@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: cal sans;
 }
 .nav{
     position: fixed;
@@ -8,5 +9,110 @@
     width: 100%;
     z-index: 1000;
 }
+body{
+    background-color: black;
+}
+#citacao{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+blockquote, cite{
+    text-align: center;
+    margin: 0 auto;
+}
+html, body {
+    height: 100%;
+}
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
+main {
+    flex: 1;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+}
+
+.cabecalho{
+    background-color: rgb(27, 243, 63);
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    font-family: cal sans;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao, .habilidades, .redes {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 600px;
+    color: white;
+}
+
+.apresentacao p {
+    white-space: pre-line;
+}
+
+.habilidades ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.habilidades li {
+    background: rgba(27,243,63,0.15);
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin: 4px 0;
+    font-weight: bold;
+    color: rgb(27,243,63);
+    border: 1px solid rgb(27,243,63);
+    transition: background 0.2s, color 0.2s;
+}
+.habilidades li:hover {
+    background: rgb(27,243,63);
+    color: black;
+}
+.redes h2 {
+    margin-bottom: 12px;
+}
+.redes div {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.redes img {
+    width: 40px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 2px 8px rgba(27,243,63,0.2);
+}
+.redes img:hover {
+    transform: scale(1.15) rotate(-5deg);
+    box-shadow: 0 4px 16px rgba(27,243,63,0.4);
+}
+@media (max-width: 700px) {
+    .apresentacao, .habilidades, .redes {
+        margin: 24px 8px;
+        max-width: 98vw;
+    }
+    .habilidades ul {
+        gap: 10px;
+    }
+    .redes div {
+        gap: 12px;
+    }
+}
